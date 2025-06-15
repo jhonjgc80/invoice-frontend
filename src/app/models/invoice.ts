@@ -7,5 +7,6 @@ export class Invoice {
   name!: string;
   client!: Client;
   company!: Company;
+  total?: number;
   items: Item[] = [];
 }
